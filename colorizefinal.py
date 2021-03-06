@@ -2,6 +2,7 @@ import tensorflow as tf
 import keras
 import numpy as np
 import os
+os.environ["CUDA_VISIBLE_DEVICES"]="-1"
 import streamlit as st
 import PIL 
 from PIL import Image
