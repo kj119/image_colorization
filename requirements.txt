@@ -8,6 +8,6 @@ tensorflow-cpu==2.4.1
 
 keras==2.4.3
 
-opencv-python==4.5.1.48
+opencv-python-headless==4.5.1.48
 
 matplotlib==3.3.2
