@@ -19,8 +19,8 @@ st.markdown("<h3 style='text-align:center;'>Built with Tensorflow2 & Keras</h3>"
 st.text('2. Click the button below to colorize your selected image.')
 
 # loads grayscale and colored images
-gray=np.load('gray_scale.npy')
-ab=np.load('ab1.npy')
+gray=np.load('gray_short.npy')
+ab=np.load('ab_short.npy')
 
 # creates a sidebar
 st.sidebar.title('1. Choose from 300 images')
